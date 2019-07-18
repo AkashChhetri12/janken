@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <link rel="stylesheet" href="./css/style.css"/>
+        <title>janken</title>
+    </head>
+
+    <body>
+
+        <section class="game">
+            <div class="score">
+
+                <div class="player-score">
+                    <h2>Player</h2>
+                    <p>0</p>
+                </div>
+                <div class="computer-score">
+                    <h2>Computer</h2>
+                    <p>0</p>
+                </div>
+            </div>
+
+            <div class="intro">
+                <h1>Janken</h1>
+                <h2>Rock Paper and Scissors</h2>
+                <button>Let's Play</button>
+            </div>
+
+            <div class="match fadeOut">
+                <h1 class="winner">
+                    Choose an option
+                </h1>
+                <div class="hands">
+                    <img src="./assets/rock.png" alt="rock.png" class="player-hand">
+                    <img src="./assets/rock.png" alt="rock.png" class="computer-hand">
+                </div>
+
+                <div class="options">
+                    <button class="rock">rock</button>
+                    <button class="paper">paper</button>
+                    <button class="scissors">scissors</button>
+                </div>
+            </div>
+
+            
+        </section>
+        
+        <script src="./js/app.js"></script>
+    </body>
+</html>
